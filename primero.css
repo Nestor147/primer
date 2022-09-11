@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid black;
+    width: 70%;
+}
+#cabecera{
+    text-align: center;
+    color: aliceblue;
+    font-family: "Arial";
+    border: 1px solid black;
+    background: rgb(7, 2, 46);
+    border-radius: 8px;
+}
+#centro{
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid black;
+    background: rgb(17, 17, 71);
+    color: rgb(69, 206, 216);
+}
+#centro p:nth-child(2){
+    font-family: "Arial";
+}
+#pie{
+    text-align: center;
+    font-size: 20px;
+    background: rgb(7, 2, 46);
+    color: aliceblue;
+
+}
